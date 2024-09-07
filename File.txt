@@ -1,0 +1,24 @@
+EXPLAINATION
+
+Backend
+npm init (to install)
+npm i express body-parser mongoose (library) 
+npm i dotenv
+npm install --save-dev nodemon (to get nodemon in dev) +
+ "scripts": {
+    "server": "nodemon index.js"
+  },
+    - run the command `npm run server` to run Backend 
+
+
+Frontend
+npx create-react-app .
+npm start
+
+
+Git
+git init
+git add .
+git commit -m "CRUD operation Backend Completed"
+git remote add origin git@github.com:aspoorna24/TODO.git
+git push --set-upstream origin master
